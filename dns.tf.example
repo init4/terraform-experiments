@@ -1,0 +1,18 @@
+provider "dns" {
+  update {
+    server        = "shockwave.init4.org"
+    key_name      = "soundwave."
+    key_algorithm = "hmac-md5"
+    key_secret    = "abcdefghijklmnopqrstuvwxyz"
+  }
+}
+
+resource "dns_a_record_set" "A_slag_init4_org" {
+  zone = "init4.org."
+  name = "slag"
+  addresses = [
+    "1.3.3.8",
+  ]
+  ttl = 300
+}
+

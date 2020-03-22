@@ -1,0 +1,6 @@
+.terraform*
+aws.tf
+azure.tf
+dns.tf
+awsuser.pem
+terraform.tfstate*
