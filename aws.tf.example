@@ -18,7 +18,7 @@ variable "awsprops" {
 
 provider "aws" {
   region = lookup(var.awsprops, "region")
-  access_key = "myaccess"
-  secret_key = "mysecret"
+  access_key = "myaccess1"
+  secret_key = "mysecret1"
 }
 
