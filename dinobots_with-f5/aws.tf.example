@@ -1,0 +1,17 @@
+
+variable "awsprops" {
+  type = map
+  default = {
+    region = "us-east-2"
+    keyname = "awsuser"
+    public_key = "/scratch/tmp/current/terraform-experiments/awsuser.pem"
+    secgroupname = ""
+  }
+}
+
+provider "aws" {
+  region = lookup(var.awsprops, "region")
+  access_key = "xxx"
+  secret_key = "yyy"
+}
+

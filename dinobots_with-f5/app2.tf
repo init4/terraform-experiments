@@ -1,0 +1,24 @@
+# FIXME 
+# - Due to terraform issue #2430 there is no way to set a provider dependency this means that
+#   we cannot simply use the output of an ec2 deployment as a provider input 
+# - https://github.com/hashicorp/terraform/issues/2430 
+# - https://github.com/terraform-providers/terraform-provider-bigip/issues/236 
+ 
+provider "bigip" {
+  #address  = "${aws_instance.bigip1.public_ip}"
+  address  = "3.128.28.68"
+  username = "admin"
+  password = "p4ssw0rd"
+}
+
+resource "null_resource" "install_as3" {
+  provisioner "local-exec" {
+    command = "./install-as3-rpm.sh ${aws_instance.bigip1.public_ip} admin:p4ssw0rd"
+    }
+}
+
+resource "bigip_as3" "deploy_app2" {
+  as3_json = "${file("app2.json")}"
+  depends_on = [ null_resource.install_as3 ]
+}
+
