@@ -1,6 +1,9 @@
 # Terraform experiments with: AWS / Azure / F5 TMOS / VMWare Fusion 
 
+![Dinobots image](https://github.com/init4/terraform-experiments/blob/master/html/dinobots.jpg?raw=true)
+
 ## Goal: try out a number of Terraform scenarios in public/private cloud and with F5 traffic management 
+
 #### Use case 1: [AWS servers](https://github.com/init4/terraform-experiments/tree/master/dinobots) 
 Simple use case that deploys a number of Amazon Linux instances in us-east-2. Working 100%
 
