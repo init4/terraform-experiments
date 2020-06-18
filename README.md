@@ -8,7 +8,7 @@ Simple use case that deploys a number of Amazon Linux instances in us-east-2. Wo
 Simple use case that deploys a number of Amazon Linux instances in us-east-2, with TMOS 15.1 reverse proxy, Working 100%.
 
 #### Use case 3: [Azure servers](https://github.com/init4/terraform-experiments/tree/master/constructicons/) 
-Not started
+Initial prototype complete.
 
 #### Use case 4: [Azure servers and F5 reverse proxy](https://github.com/init4/terraform-experiments/tree/master/constructicons_with-f5/)
 Not started
