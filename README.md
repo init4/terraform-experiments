@@ -29,6 +29,7 @@ Not started
 
 ## References
 These docs were helpful:
-- (https://clouddocs.f5.com) 
+- https://clouddocs.f5.com 
 - [@F5Networks](https://github.com/F5Networks/terraform-provider-bigip)
+- [@hooklift](https://github.com/hooklift/terraform-provider-vix)
  
