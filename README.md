@@ -20,6 +20,7 @@ Not started
 Not started
 
 ## Todo 
+- Incorporate DNS; either normal dynamic DNS or F5 Cloud Services
 - Finish the other initial Terraform configs 
 - Expand all use cases to include Web Application Firewall, DDoS protection, etc, configs. 
 
