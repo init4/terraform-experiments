@@ -1,4 +1,4 @@
-# Terraform experiments with: AWS / Azure / F5 TMOS / VMWare Fusion 
+# Terraform experiments with: AWS / Azure / VMware & F5 
 
 ![Dinobots image](https://github.com/init4/terraform-experiments/blob/master/html/dinobots.jpg?raw=true)
 
