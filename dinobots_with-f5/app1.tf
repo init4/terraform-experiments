@@ -6,7 +6,7 @@
  
 provider "bigip" {
   #address  = "${aws_instance.bigip1.public_ip}"
-  address  = "3.21.232.120"
+  address  = "3.16.180.85"
   username = "admin"
   password = "p4ssw0rd"
 }

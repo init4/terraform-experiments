@@ -4,11 +4,12 @@ For the inital provisioning run, make sure the app1.tf and app2.tf are both rena
 
 Ensure you define the AWS credentials and path to AWS SSH public key in aws.tf.
 
+Then run:
 - terraform init
 - terraform plan 
 - terraform apply
 
-x ascii cinema 1
+[![asciicast](https://asciinema.org/a/9DHv1uxvSb9QMTk1ajNdjtkIG.svg)](https://asciinema.org/a/9DHv1uxvSb9QMTk1ajNdjtkIG)
 
 Once all the servers and bigip have been provisioned there are two options for building application configs:
 1. app1.tf
@@ -16,7 +17,7 @@ Once all the servers and bigip have been provisioned there are two options for b
 
 The app1.tf option builds all of the bigip configs using the normal F5 iControl REST API. This is an interative approach and all config elements must be defined in the HCL file.
 
-Before running terraform again, edit app2.tf to provide bigip IP address and admin credentials.
+Before running terraform again, edit app1.tf to provide bigip IP address and admin credentials.
 
 x ascii cinema 2
 
