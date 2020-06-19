@@ -9,7 +9,7 @@ Then run:
 - terraform plan 
 - terraform apply
 
-[![asciicast](https://asciinema.org/a/9DHv1uxvSb9QMTk1ajNdjtkIG.svg)](https://asciinema.org/a/9DHv1uxvSb9QMTk1ajNdjtkIG)
+[![asciicast](https://asciinema.org/a/9DHv1uxvSb9QMTk1ajNdjtkIG.svg)](https://asciinema.org/a/9DHv1uxvSb9QMTk1ajNdjtkIG&?cols=80&rows=25)
 
 Once all the servers and bigip have been provisioned there are two options for building application configs:
 1. app1.tf
