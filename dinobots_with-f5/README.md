@@ -19,11 +19,11 @@ The app1.tf option builds all of the bigip configs using the normal F5 iControl 
 
 Before running terraform again, edit app1.tf to provide bigip IP address and admin credentials.
 
-x ascii cinema 2
+[![asciicast](https://asciinema.org/a/RwfAcCsQ70k36QWhMMF0b7pxq.svg)](https://asciinema.org/a/RwfAcCsQ70k36QWhMMF0b7pxq)
 
 Alternatively, app2.tf uses the AS3 extension to declaritively define the bigip configs. This is a better option as AS3 will find and resolve config dependencies which may be tedious if you arent familar with bigip config.
 
 Again, edit app2.tf to provide bigip IP address and admin credentials.
 
-x ascii cinema 2
+[![asciicast](https://asciinema.org/a/fcPDmaw3D2E8D4iv6tBHKIXaF.svg)](https://asciinema.org/a/fcPDmaw3D2E8D4iv6tBHKIXaF)
 
